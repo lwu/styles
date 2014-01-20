@@ -65,10 +65,8 @@
   <macro name="journal">
     <group suffix=", " delimiter=" " font-style="italic">
       <text variable="container-title"/>
-      <text variable="volume"/>
     </group>
     <group delimiter=" ">
-      <text variable="issue"/>
       <text macro="year" prefix="(" suffix=")"/>
     </group>
   </macro>
