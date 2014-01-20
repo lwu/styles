@@ -113,7 +113,6 @@
         <else-if type="paper-conference">
           <group suffix="." delimiter=", ">
             <text macro="conference"/>
-            <text variable="page"/>
           </group>
         </else-if>
         <else-if type="chapter paper-conference" match="any">
@@ -122,13 +121,11 @@
           <text variable="container-title" font-style="italic" suffix=". "/>
           <group suffix="." delimiter=", ">
             <text macro="book-publisher"/>
-            <text variable="page"/>
           </group>
         </else-if>
         <else-if type="article-journal">
           <group suffix="." delimiter=", ">
             <text macro="journal"/>
-            <text variable="page"/>
           </group>
         </else-if>
         <else>
@@ -138,7 +135,6 @@
               <text variable="volume"/>
             </group>
             <text macro="year"/>
-            <text variable="page"/>
           </group>
           <text variable="URL" prefix=" "/>
         </else>
